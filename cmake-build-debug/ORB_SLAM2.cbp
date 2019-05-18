@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ORB_SLAM2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\opencv2\;CMake Files\..\..\..\..\..\usr\local\opencv2\share\;CMake Files\..\..\..\..\..\usr\local\opencv2\share\OpenCV\;CMake Files\..\..\..\..\..\usr\local\opencv\;CMake Files\..\..\..\..\..\usr\local\opencv\share\;CMake Files\..\..\..\..\..\usr\local\opencv\share\OpenCV\;CMake Files\..\..\Pangolin\;CMake Files\..\..\Pangolin\build\;CMake Files\..\..\Pangolin\build\src\;CMake Files\cmake_modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mono_euroc">
+				<Option output="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Monocular/mono_euroc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Monocular"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/tr/Downloads/Pangolin/include"/>
+					<Add directory="/home/tr/Downloads/Pangolin/build/src/include"/>
+					<Add directory="/usr/local/opencv/include"/>
+					<Add directory="/usr/local/opencv/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 mono_euroc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mono_euroc/fast">
+				<Option output="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Monocular/mono_euroc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Monocular"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/tr/Downloads/Pangolin/include"/>
+					<Add directory="/home/tr/Downloads/Pangolin/build/src/include"/>
+					<Add directory="/usr/local/opencv/include"/>
+					<Add directory="/usr/local/opencv/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 mono_euroc/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mono_kitti">
+				<Option output="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Monocular/mono_kitti" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Monocular"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/tr/Downloads/Pangolin/include"/>
+					<Add directory="/home/tr/Downloads/Pangolin/build/src/include"/>
+					<Add directory="/usr/local/opencv/include"/>
+					<Add directory="/usr/local/opencv/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 mono_kitti"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mono_kitti/fast">
+				<Option output="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Monocular/mono_kitti" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Monocular"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/tr/Downloads/Pangolin/include"/>
+					<Add directory="/home/tr/Downloads/Pangolin/build/src/include"/>
+					<Add directory="/usr/local/opencv/include"/>
+					<Add directory="/usr/local/opencv/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 mono_kitti/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mono_tum">
+				<Option output="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Monocular/mono_tum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Monocular"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/tr/Downloads/Pangolin/include"/>
+					<Add directory="/home/tr/Downloads/Pangolin/build/src/include"/>
+					<Add directory="/usr/local/opencv/include"/>
+					<Add directory="/usr/local/opencv/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 mono_tum"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mono_tum/fast">
+				<Option output="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Monocular/mono_tum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Monocular"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/tr/Downloads/Pangolin/include"/>
+					<Add directory="/home/tr/Downloads/Pangolin/build/src/include"/>
+					<Add directory="/usr/local/opencv/include"/>
+					<Add directory="/usr/local/opencv/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 mono_tum/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ORB_SLAM2">
+				<Option output="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/lib/libORB_SLAM2.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/tr/Downloads/Pangolin/include"/>
+					<Add directory="/home/tr/Downloads/Pangolin/build/src/include"/>
+					<Add directory="/usr/local/opencv/include"/>
+					<Add directory="/usr/local/opencv/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 ORB_SLAM2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ORB_SLAM2/fast">
+				<Option output="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/lib/libORB_SLAM2.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/tr/Downloads/Pangolin/include"/>
+					<Add directory="/home/tr/Downloads/Pangolin/build/src/include"/>
+					<Add directory="/usr/local/opencv/include"/>
+					<Add directory="/usr/local/opencv/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 ORB_SLAM2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rgbd_tum">
+				<Option output="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/RGB-D/rgbd_tum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Monocular"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/tr/Downloads/Pangolin/include"/>
+					<Add directory="/home/tr/Downloads/Pangolin/build/src/include"/>
+					<Add directory="/usr/local/opencv/include"/>
+					<Add directory="/usr/local/opencv/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 rgbd_tum"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rgbd_tum/fast">
+				<Option output="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/RGB-D/rgbd_tum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Monocular"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/tr/Downloads/Pangolin/include"/>
+					<Add directory="/home/tr/Downloads/Pangolin/build/src/include"/>
+					<Add directory="/usr/local/opencv/include"/>
+					<Add directory="/usr/local/opencv/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 rgbd_tum/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stereo_kitti">
+				<Option output="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Stereo/stereo_kitti" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Monocular"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/tr/Downloads/Pangolin/include"/>
+					<Add directory="/home/tr/Downloads/Pangolin/build/src/include"/>
+					<Add directory="/usr/local/opencv/include"/>
+					<Add directory="/usr/local/opencv/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 stereo_kitti"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stereo_kitti/fast">
+				<Option output="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Stereo/stereo_kitti" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Monocular"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/tr/Downloads/Pangolin/include"/>
+					<Add directory="/home/tr/Downloads/Pangolin/build/src/include"/>
+					<Add directory="/usr/local/opencv/include"/>
+					<Add directory="/usr/local/opencv/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 stereo_kitti/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stereo_euroc">
+				<Option output="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Stereo/stereo_euroc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Monocular"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/tr/Downloads/Pangolin/include"/>
+					<Add directory="/home/tr/Downloads/Pangolin/build/src/include"/>
+					<Add directory="/usr/local/opencv/include"/>
+					<Add directory="/usr/local/opencv/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 stereo_euroc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stereo_euroc/fast">
+				<Option output="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Stereo/stereo_euroc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Monocular"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping"/>
+					<Add directory="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/tr/Downloads/Pangolin/include"/>
+					<Add directory="/home/tr/Downloads/Pangolin/build/src/include"/>
+					<Add directory="/usr/local/opencv/include"/>
+					<Add directory="/usr/local/opencv/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 stereo_euroc/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Monocular/mono_euroc.cc">
+			<Option target="mono_euroc"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Monocular/mono_kitti.cc">
+			<Option target="mono_kitti"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Monocular/mono_tum.cc">
+			<Option target="mono_tum"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/RGB-D/rgbd_tum.cc">
+			<Option target="rgbd_tum"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Stereo/stereo_euroc.cc">
+			<Option target="stereo_euroc"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/Examples/Stereo/stereo_kitti.cc">
+			<Option target="stereo_kitti"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/src/Converter.cc">
+			<Option target="ORB_SLAM2"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/src/Frame.cc">
+			<Option target="ORB_SLAM2"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/src/FrameDrawer.cc">
+			<Option target="ORB_SLAM2"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/src/Initializer.cc">
+			<Option target="ORB_SLAM2"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/src/KeyFrame.cc">
+			<Option target="ORB_SLAM2"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/src/KeyFrameDatabase.cc">
+			<Option target="ORB_SLAM2"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/src/LocalMapping.cc">
+			<Option target="ORB_SLAM2"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/src/LoopClosing.cc">
+			<Option target="ORB_SLAM2"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/src/Map.cc">
+			<Option target="ORB_SLAM2"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/src/MapDrawer.cc">
+			<Option target="ORB_SLAM2"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/src/MapPoint.cc">
+			<Option target="ORB_SLAM2"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/src/ORBextractor.cc">
+			<Option target="ORB_SLAM2"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/src/ORBmatcher.cc">
+			<Option target="ORB_SLAM2"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/src/Optimizer.cc">
+			<Option target="ORB_SLAM2"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/src/PnPsolver.cc">
+			<Option target="ORB_SLAM2"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/src/Sim3Solver.cc">
+			<Option target="ORB_SLAM2"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/src/System.cc">
+			<Option target="ORB_SLAM2"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/src/Tracking.cc">
+			<Option target="ORB_SLAM2"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/src/Viewer.cc">
+			<Option target="ORB_SLAM2"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/../../../../../usr/local/opencv2/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opencv2\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/../../../../../usr/local/opencv/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opencv\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/../../../../../usr/local/opencv/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opencv\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/../../../../../usr/local/opencv/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opencv\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/../../../../../usr/local/opencv/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opencv\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/../../Pangolin/build/src/PangolinConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Pangolin\build\src\"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/../../Pangolin/build/src/PangolinConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Pangolin\build\src\"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/../../Pangolin/build/src/PangolinTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Pangolin\build\src\"/>
+		</Unit>
+		<Unit filename="/home/tr/Downloads/2019-05-09-Semantic_Map/ORB_SLAM2-SemanticMapping/cmake_modules/FindEigen3.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
