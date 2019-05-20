@@ -1,5 +1,11 @@
 # ORB-SLAM2
 
+[TOC]
+
+
+
+# 0.modification
+
 This is a modification for the monocular semantic map of ORB-SLAM2, Map points are added with semantic informations of different colors.
 
  ![](<https://github.com/TianXiaoRui/Semantic-Mapping-for-ORB-SLAM/blob/master/fig/Screenshot%20from%202019-05-09%2019-56-16.png>)
@@ -8,7 +14,7 @@ Add the semantic information in the map
 
 Input semantic images results are segmented by the ICNet
 
-[icnet]: https://github.com/hszhao/ICNet	"ICNet"
+
 
 ------
 
