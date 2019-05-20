@@ -1,8 +1,4 @@
-# ORB-SLAM2
-
-[TOC]
-
-
+# ORB-SLAM2 with semantic mappoints
 
 # 0.modification
 
