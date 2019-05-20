@@ -2,7 +2,7 @@
 
 # 0.modification
 
-This is a modification for the monocular semantic map of ORB-SLAM2, Map points are added with semantic informations of different colors.
+This is a modification for the monocular semantic map of ORB-SLAM2, Map points are added with semantic informations of different colors. (Monocular only)
 
  ![](<https://github.com/TianXiaoRui/Semantic-Mapping-for-ORB-SLAM/blob/master/fig/Screenshot%20from%202019-05-09%2019-56-16.png>)
 
