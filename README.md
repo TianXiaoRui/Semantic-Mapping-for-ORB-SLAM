@@ -1,10 +1,27 @@
 # ORB-SLAM2
 
-What's New:
+This is a modification for the monocular semantic map of ORB-SLAM2, Map points are added with semantic informations of different colors.
+
+ ![](./fig/Screenshot from 2019-05-09 19-56-16.png)
 
 Add the semantic information in the map
 
-Add input semantic images results segmented by the ICNet
+Input semantic images results are segmented by the
+
+[ICNet]: https://github.com/hszhao/ICNet	"ICNet"
+
+------
+
+How to use
+
+```
+./mono_kitti ~/Vocabulary/ORBvoc.txt\
+~/Examples/Monocular/KITTI00-02.yaml\
+~/Semantic\
+
+```
+
+------
 
 **Authors:** [Raul Mur-Artal](http://webdiis.unizar.es/~raulmur/), [Juan D. Tardos](http://webdiis.unizar.es/~jdtardos/), [J. M. M. Montiel](http://webdiis.unizar.es/~josemari/) and [Dorian Galvez-Lopez](http://doriangalvez.com/) ([DBoW2](https://github.com/dorian3d/DBoW2))
 
